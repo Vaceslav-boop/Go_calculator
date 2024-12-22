@@ -29,7 +29,7 @@ go run cmd/Go-calculator/main.go
 
 В режиме пользователя
 Соберите бинарный файл:
-go build -o Go_colculator cmd/Go_colculator/main.go
+go build -o Go_calculator cmd/Go_calculator/main.go
 
 Запустите файл:
 ./Go_colculator
