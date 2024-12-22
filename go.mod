@@ -1,3 +1,3 @@
-module github.com/Vaceslav-boop/go-calculator.git
+module github.com/Vaceslav-boop/Go-calculator.git
 
 go 1.23.1
