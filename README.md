@@ -41,7 +41,7 @@ POST /calculate
 
 { "expression": "3 + 2 * (1 + 4)" }
 Пример ответа
-{ "result": -57 }
+{ "result": 25 }
 
 
 При некорректном выражении сервер вернет ошибку HTTP 400 Internal Server Error.
