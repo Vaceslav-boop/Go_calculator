@@ -17,13 +17,13 @@
 1.Клонирование репозитория командой:
 ```bash
 git clone https://github.com/Vaceslav-boop/Go-calculator.git
-   cd go-calculator
+   cd Go-calculator
 Установите зависимости:
 go mod tidy
 Запуск
 В режиме разработчика
 Запустите сервер:
-go run cmd/go-calculator/main.go
+go run cmd/Go-calculator/main.go
 
 Сервер будет доступен по адресу: http://localhost:8080/api/v1/calculate.
 
