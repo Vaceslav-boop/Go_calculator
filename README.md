@@ -23,7 +23,7 @@ go mod tidy
 Запуск
 В режиме разработчика
 Запустите сервер:
-go run cmd/Go-calculator/main.go
+go run cmd/Go_calculator/main.go
 
 Сервер будет доступен по адресу: http://localhost:8080/api/v1/calculate.
 
@@ -32,7 +32,7 @@ go run cmd/Go-calculator/main.go
 go build -o Go_calculator cmd/Go_calculator/main.go
 
 Запустите файл:
-./Go_colculator
+./Go_calculator
 API
 POST /calculate
 Принимает математическое выражение и возвращает результат.
@@ -41,7 +41,7 @@ POST /calculate
 
 { "expression": "3 + 2 * (1 + 4)" }
 Пример ответа
-{ "result": -60 }
+{ "result": -57 }
 
 
 При некорректном выражении сервер вернет ошибку HTTP 400 Internal Server Error.
